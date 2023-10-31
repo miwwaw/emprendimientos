@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #1f1d1d;
+}
+header{
+    .tittle{
+        font-size: 200px;
+        color: #1E5945;
+    }
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    font-family: 'Bebas Neue', sans-serif;
+    }
+    .navbar{
+        display: flex;
+        margin-right: 10px;
+     
+    }
+    .navbar a:hover{
+        background: #47B543;
+    }
+    .navbar a{
+        display: block;
+        padding: 23px 20px;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .text_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh !important;
+        background: url(https://image.freepik.com/vrije-vector/hand-getekende-groene-bladeren-achtergrond_23-2149133885.jpg);
+        background-size: cover;
+       
+    }
+    
+    .text_content a{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .text_content p {
+    
+        margin-right: 10px;
+    }
+    

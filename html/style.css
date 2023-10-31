@@ -1,0 +1,210 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    .tittle{
+        font-size: 200px;
+        color: #1E5945;
+    }
+}
+
+
+navbar{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    font-family: 'Bebas Neue', sans-serif;
+    }
+    
+   
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+ 
+}
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #47B543;
+}
+.logo{
+    margin-left: 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: #616EFA;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header{
+    height: 60vh !important;
+    background: url(fondito.jpeg) no-repeat center ;
+    background-size: cover;
+}
+
+.tittle {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 1000;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid#47B543;
+    color: #1f1d1d;
+    text-decoration: none;
+    background: #47B543;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .t{
+        font-family:'Roboto Condensed', sans-serif;
+        font-size: 200px;
+        font-weight: bold;
+    }
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 15rem;
+    width: 20rem;
+    background: #1E5945;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem #1f1d1d;
+    margin: 3rem;
+  
+   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #000000;
+    background: #47B543;
+    font-size: 2rem;
+    margin:  1rem 0;
+    font-weight: 1000;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #1f1d1d;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #1E5945;
+}
+
+.price{
+    background:  url(fondito2.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    .tittle {
+        color: #000000;
+    }
+    .fortnite{
+        color: #1E5945;
+    }
+}
+
+.contact{
+    padding-top: 20px;
+    background: #1E5945;
+    padding-bottom: 0;
+}
+.contain1{
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .tittle{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau{
+        height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }
+}
